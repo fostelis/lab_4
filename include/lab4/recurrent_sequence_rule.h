@@ -11,7 +11,6 @@
 #include "generation_window.h"
 #include "element_generation_rule.h"
 
-
 template<class T>
 class recurrent_sequence_rule : public element_generation_rule<T> {
 private:

@@ -21,9 +21,6 @@
 template<class T>
 class generator;
 
-
-
-
 template<class T>
 class lazy_sequence {
 private:

@@ -5,8 +5,6 @@
 #include "ordinal_number.h"
 #include "ordinal_operations.h"
 
-
-
 template<class T>
 class element_generation_rule {
 public:

@@ -6,8 +6,6 @@
 #include "dynamic_array.h"
 #include "array_sequence.h"
 
-
-
 template<class T>
 class generation_window {
 private:

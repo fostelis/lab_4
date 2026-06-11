@@ -8,7 +8,6 @@
 #include "exceptions.h"
 #include "element_generation_rule.h"
 
-
 template<class T>
 class prepended_element_rule : public element_generation_rule<T> {
 private:
@@ -172,7 +171,6 @@ public:
         return std::make_shared<concatenated_sequence_rule<T>>(left_rule_, right_rule_);
     }
 };
-
 
 template<class From, class To>
 class mapped_sequence_rule : public element_generation_rule<To> {

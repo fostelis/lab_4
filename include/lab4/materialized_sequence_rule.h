@@ -8,7 +8,6 @@
 #include "array_sequence.h"
 #include "element_generation_rule.h"
 
-
 template<class T>
 class materialized_sequence_rule : public element_generation_rule<T> {
 private:

@@ -7,9 +7,6 @@
 #include "array_sequence.h"
 #include "element_generation_rule.h"
 
-
-
-
 template<class T>
 class interleaved_sequences_rule : public element_generation_rule<T> {
 private:

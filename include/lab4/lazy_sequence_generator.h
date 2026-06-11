@@ -8,7 +8,6 @@
 #include "ordinal_operations.h"
 #include "lazy_sequence.h"
 
-
 template<class T>
 class generator {
 private:
